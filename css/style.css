@@ -1,0 +1,58 @@
+.container h1 {
+  font-family: "Work Sans", sans-serif;
+  text-transform: capitalize;
+  margin-top: 100px;
+  font-weight: 800;
+  color: #999;
+  letter-spacing: -2px;
+  font-size: 50px;
+}
+
+.cont-form {
+  max-width: 450px;
+  margin: 30px auto;
+  position: relative;
+}
+.cont-form .form-group {
+  margin-bottom: 0;
+  position: relative;
+}
+.cont-form input,
+.cont-form textarea {
+  margin-bottom: 10px;
+}
+.cont-form input::placeholder,
+.cont-form textarea::placeholder {
+  text-transform: capitalize;
+}
+.cont-form textarea {
+  height: 150px;
+}
+.cont-form i {
+  position: relative;
+  height: 0;
+  display: flex;
+  justify-content: flex-start;
+  top: -35px;
+  left: 10px;
+  color: #999;
+}
+.cont-form input {
+  padding-left: 35px;
+}
+.cont-form .fa-paper-plane {
+  color: white;
+}
+.cont-form input[type="submit"] {
+  text-transform: capitalize;
+}
+.astrix {
+color: red;
+position: absolute;
+right: 5px;
+top: 10px;
+}
+.custom-alert {
+  padding: 5px 10px;
+    display: none;
+}
