@@ -1,2 +1,6 @@
 # contact-form
-simple form
+simple form using 
+-php
+-jquery
+-bootstrap
+-css
